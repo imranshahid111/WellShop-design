@@ -34,11 +34,6 @@ const MultiItemCarousel = () => {
 
   return (
     <Container className="">
-
-
-    
-      
-
     <Carousel indicators={false}>
     {productChunks.map((chunk, index) => (
         <Carousel.Item key={index} className='ccard'>
@@ -58,9 +53,7 @@ const MultiItemCarousel = () => {
         </Carousel.Item>
     ))}
 </Carousel>
-   
-
-    </Container>
+       </Container>
   );
 };
 
